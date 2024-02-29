@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "company-communities-client-side-solution",
+    "id": "50ee9b68-85ad-4b6b-937b-49bd0b7be1aa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CompanyCommunities description"
+      },
+      "longDescription": {
+        "default": "CompanyCommunities description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "company-communities Feature",
+        "description": "The feature that activates elements of the company-communities solution.",
+        "id": "4c174d82-b26e-47f9-b4b6-069f95ceacad",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/company-communities.sppkg"
+  }
+}
